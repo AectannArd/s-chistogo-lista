@@ -35,6 +35,18 @@ blockquote {
   color: #131313;
 }
 
+.accent-span {
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .header {
   padding: 24px 20px;
   display: flex;
@@ -51,7 +63,6 @@ blockquote {
 }
 
 .header__menu {
-
 }
 
 .header__menu-list {
@@ -64,6 +75,9 @@ blockquote {
 .header__menu-item {
 }
 
+.header__menu-item_active {
+}
+
 .header__menu-item_active a {
   text-decoration: none;
 }
@@ -73,12 +87,27 @@ blockquote {
 }
 
 .cover {
-  padding-top: 7px;
-  padding-left: 20px;
+  min-height: 258px;
+  background-image: url("../images/cover.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 95% auto;
+  padding: 7px 24px 35px 20px;
+}
+
+.cover__title {
+  font-family: "EB Garamond Regular", sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.cover__title span {
+  display: block;
 }
 
 .intro {
-  padding: 30px 20px 28px;
+  padding: 0 20px 28px;
 }
 
 .reasons {
