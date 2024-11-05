@@ -107,7 +107,29 @@ blockquote {
 }
 
 .intro {
-  padding: 0 20px 28px;
+  padding: 0 20px 14px;
+}
+
+.intro__heading {
+  display: flex;
+  color: #cccccc;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.intro__heading time {
+  white-space: nowrap;
+}
+
+.intro__title {
+}
+
+.intro__main-text {
+  line-height: 1.35;
+}
+
+.intro__main-text p {
+  padding-bottom: 24px;
 }
 
 .reasons {
