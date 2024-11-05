@@ -37,6 +37,8 @@ blockquote {
 
 .header {
   padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__logo {
@@ -44,7 +46,30 @@ blockquote {
 }
 
 .header__logo-image {
+  width: 78.45px;
+  height: 15.43px;
+}
 
+.header__menu {
+
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 12px;
+}
+
+.header__menu-item {
+}
+
+.header__menu-item_active a {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: white;
 }
 
 .cover {
