@@ -35,8 +35,14 @@ blockquote {
   color: #131313;
 }
 
-.accent-span {
+.content-section__subtitle {
+  font-family: "EB Garamond Medium", serif;
+  font-size: 28px;
+  font-weight: 500;
+}
 
+.accent-span {
+  display: block;
 }
 
 .text-center {
@@ -96,14 +102,10 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond Regular", sans-serif;
+  font-family: "EB Garamond Regular", serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1;
-}
-
-.cover__title span {
-  display: block;
 }
 
 .intro {
@@ -112,9 +114,10 @@ blockquote {
 
 .intro__heading {
   display: flex;
-  color: #cccccc;
   justify-content: space-between;
   padding-bottom: 24px;
+  color: #cccccc;
+  font-size: 16px;
 }
 
 .intro__heading time {
@@ -125,6 +128,7 @@ blockquote {
 }
 
 .intro__main-text {
+  font-size: 16px;
   line-height: 1.35;
 }
 
@@ -133,7 +137,33 @@ blockquote {
 }
 
 .reasons {
-  padding: 40px 20px;
+  padding: 0 20px;
+}
+
+.reasons .content-section__subtitle {
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 1.35;
+  padding-bottom: 32px;
+}
+
+.content-section__list {
+  padding-left: 18px;
+  padding-bottom: 24px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.content-section__list-item {
+  padding-bottom: 16px;
+}
+
+.content-section__list-accent {
+  font-weight: 700;
 }
 
 .how-to {
