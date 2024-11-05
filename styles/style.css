@@ -39,9 +39,6 @@ blockquote {
   font-family: "EB Garamond Medium", serif;
   font-size: 28px;
   font-weight: 500;
-}
-
-.content-section__subtitle {
   padding-top: 40px;
   padding-bottom: 32px;
 }
@@ -70,16 +67,9 @@ blockquote {
   justify-content: space-between;
 }
 
-.header__logo {
-
-}
-
 .header__logo-image {
   width: 78.45px;
   height: 15.43px;
-}
-
-.header__menu {
 }
 
 .header__menu-list {
@@ -87,12 +77,6 @@ blockquote {
   flex-direction: column;
   justify-content: space-between;
   row-gap: 12px;
-}
-
-.header__menu-item {
-}
-
-.header__menu-item_active {
 }
 
 .header__menu-item_active a {
@@ -135,9 +119,6 @@ blockquote {
   white-space: nowrap;
 }
 
-.intro__title {
-}
-
 .intro__main-text {
   font-size: 16px;
   line-height: 1.35;
@@ -150,7 +131,6 @@ blockquote {
 .reasons {
   padding: 0 20px;
 }
-
 
 .content-section__list {
   padding-left: 18px;
@@ -193,10 +173,6 @@ blockquote {
   padding: 8px 0;
 }
 
-.card__content {
-
-}
-
 .card__title {
   font-family: "EB Garamond Medium", serif;
   font-weight: 500;
@@ -226,10 +202,6 @@ blockquote {
   border-top: 1px solid #fee42a;
   display: flex;
   justify-content: space-between;
-}
-
-.footer__copy {
-
 }
 
 .footer__links {
