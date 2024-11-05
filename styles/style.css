@@ -36,7 +36,7 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: "EB Garamond Medium", serif;
+  font-family: 'EB Garamond Medium', serif;
   font-size: 28px;
   font-weight: 500;
   padding-top: 40px;
@@ -89,7 +89,7 @@ blockquote {
 
 .cover {
   min-height: 258px;
-  background-image: url("../images/cover.svg");
+  background-image: url(../images/cover.svg);
   background-repeat: no-repeat;
   background-position: center right;
   background-size: 95% auto;
@@ -97,7 +97,7 @@ blockquote {
 }
 
 .cover__title {
-  font-family: "EB Garamond Regular", serif;
+  font-family: 'EB Garamond Regular', serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1;
@@ -111,7 +111,7 @@ blockquote {
   display: flex;
   justify-content: space-between;
   padding-bottom: 24px;
-  color: #cccccc;
+  color: #ccc;
   font-size: 16px;
 }
 
@@ -174,14 +174,14 @@ blockquote {
 }
 
 .card__title {
-  font-family: "EB Garamond Medium", serif;
+  font-family: 'EB Garamond Medium', serif;
   font-weight: 500;
   font-size: 22px;
   padding-bottom: 8px;
 }
 
 .card__text {
-  font-family: "Inter", sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 1.35;
@@ -215,4 +215,3 @@ blockquote {
   font-weight: normal;
   text-decoration: none;
 }
-

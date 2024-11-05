@@ -1,52 +1,67 @@
 @font-face {
   font-family: 'EB Garamond';
-  src: local('EB Garamond Medium'),
-  local('eb garamond medium'),
-  url("./ebgaramondmedium.ttf") format('truetype'),
-  url("./ebgaramondmedium.woff") format('woff'),
-  url("./ebgaramondmedium.woff2") format('woff2'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.ttf") format('truetype'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.woff") format('woff'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.woff2") format('woff2');
+  src:
+    local('EB Garamond Medium'),
+    local('eb garamond medium'),
+    url('./ebgaramondmedium.ttf') format('truetype'),
+    url('./ebgaramondmedium.woff') format('woff'),
+    url('./ebgaramondmedium.woff2') format('woff2'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.ttf')
+      format('truetype'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.woff')
+      format('woff'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondmedium.woff2')
+      format('woff2');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'EB Garamond';
-  src: local('EB Garamond Regular'),
-  local('eb garamond regular'),
-  url("./ebgaramondregular.ttf") format('truetype'),
-  url("./ebgaramondregular.woff") format('woff'),
-  url("./ebgaramondregular.woff2") format('woff2'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.ttf") format('truetype'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.woff") format('woff'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.woff2") format('woff2');
+  src:
+    local('EB Garamond Regular'),
+    local('eb garamond regular'),
+    url('./ebgaramondregular.ttf') format('truetype'),
+    url('./ebgaramondregular.woff') format('woff'),
+    url('./ebgaramondregular.woff2') format('woff2'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.ttf')
+      format('truetype'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.woff')
+      format('woff'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/ebgaramondregular.woff2')
+      format('woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: local('Inter Regular'),
-  local('inter regular'),
-  url("./interregular.ttf") format('truetype'),
-  url("./interregular.woff") format('woff'),
-  url("./interregular.woff2") format('woff2'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.ttf") format('truetype'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.woff") format('woff'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.woff2") format('woff2');
+  src:
+    local('Inter Regular'),
+    local('inter regular'),
+    url('./interregular.ttf') format('truetype'),
+    url('./interregular.woff') format('woff'),
+    url('./interregular.woff2') format('woff2'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.ttf')
+      format('truetype'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.woff')
+      format('woff'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interregular.woff2')
+      format('woff2');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: local('Inter Bold'),
-  local('inter bold'),
-  url("./interbold.ttf") format('truetype'),
-  url("./interbold.woff") format('woff'),
-  url("./interbold.woff2") format('woff2'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.ttf") format('truetype'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.woff") format('woff'),
-  url("https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.woff2") format('woff2');
+  src:
+    local('Inter Bold'),
+    local('inter bold'),
+    url('./interbold.ttf') format('truetype'),
+    url('./interbold.woff') format('woff'),
+    url('./interbold.woff2') format('woff2'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.ttf')
+      format('truetype'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.woff')
+      format('woff'),
+    url('https://github.com/yandex-praktikum/s-chistogo-lista/raw/refs/heads/main/fonts/interbold.woff2')
+      format('woff2');
   font-weight: 700;
 }
-
