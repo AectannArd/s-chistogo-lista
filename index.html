@@ -2,8 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>С чистого листа</title>
   </head>
   <body>
@@ -16,17 +16,17 @@
         />
       </a>
       <nav class="header__menu">
-        <div class="header__menu-list">
-          <div class="header__menu-item header__menu-item_active">
-            <a class="header__menu-link" href="index.html">Главная</a>
-          </div>
-          <div class="header__menu-item">
-            <a class="header__menu-link" href="index.html">О нас</a>
-          </div>
-          <div class="header__menu-item">
-            <a class="header__menu-link" href="index.html">Контакты</a>
-          </div>
-        </div>
+        <ul class="header__menu-list">
+          <li class="header__menu-item header__menu-item_active">
+            <a class="header__menu-link" href="">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="">О нас</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="">Контакты</a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
@@ -39,9 +39,9 @@
       </section>
       <section class="content-section content-section_theme_dark intro">
         <div class="intro__heading">
-          <div class="intro__title">
+          <h2 class="intro__title">
             8 способов борьбы со страхом чистого листа
-          </div>
+          </h2>
           <time datetime="2022-06-05">05.06.2022 г.</time>
         </div>
         <div class="intro__main-text">
@@ -128,7 +128,7 @@
           <article class="card card_theme_dark">
             <div class="card__author">
               <img
-                src="images/polyarinov.png"
+                src="./images/polyarinov.png"
                 alt="Фото Алексея Поляринова"
                 class="card__author-photo"
               />
@@ -164,7 +164,7 @@
           <article class="card card_theme_dark">
             <div class="card__author">
               <img
-                src="images/bunin.png"
+                src="./images/bunin.png"
                 alt="Фото Ивана Бунина"
                 class="card__author-photo"
               />
@@ -188,11 +188,15 @@
       </section>
     </main>
     <footer class="content-section content-section_theme_dark footer">
-      <img src="images/copy.svg" alt="" class="footer__copy" />
-      <div class="footer__links">
-        <a href="">ВК</a>
-        <a href="">Ютуб</a>
-      </div>
+      <img src="./images/copy.svg" alt="Логотип с копирайтом" class="footer__copy" />
+      <ul class="footer__links">
+        <li>
+          <a href="">ВК</a>
+        </li>
+        <li>
+          <a href="">Ютуб</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

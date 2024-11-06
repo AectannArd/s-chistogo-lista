@@ -1,7 +1,7 @@
 body {
   margin: 0;
   background-color: #1e1e1e;
-  font-family: 'Inter Regular', sans-serif;
+  font-family: Inter, sans-serif;
   font-weight: 400;
 }
 
@@ -36,7 +36,7 @@ blockquote {
 }
 
 .content-section__subtitle {
-  font-family: 'EB Garamond Medium', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 28px;
   font-weight: 500;
   padding-top: 40px;
@@ -77,6 +77,7 @@ blockquote {
   flex-direction: column;
   justify-content: space-between;
   row-gap: 12px;
+  list-style-type: none;
 }
 
 .header__menu-item_active a {
@@ -84,7 +85,7 @@ blockquote {
 }
 
 .header__menu-link {
-  color: white;
+  color: #f5f5f5;
 }
 
 .cover {
@@ -97,7 +98,7 @@ blockquote {
 }
 
 .cover__title {
-  font-family: 'EB Garamond Regular', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 72px;
   line-height: 1;
@@ -117,6 +118,11 @@ blockquote {
 
 .intro__heading time {
   white-space: nowrap;
+}
+
+.intro__title {
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .intro__main-text {
@@ -174,7 +180,7 @@ blockquote {
 }
 
 .card__title {
-  font-family: 'EB Garamond Medium', serif;
+  font-family: 'EB Garamond', serif;
   font-weight: 500;
   font-size: 22px;
   padding-bottom: 8px;
@@ -198,16 +204,19 @@ blockquote {
 }
 
 .footer {
-  padding: 20px;
+  padding: 20px 4px 20px 20px;
   border-top: 1px solid #fee42a;
   display: flex;
   justify-content: space-between;
 }
 
 .footer__links {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
+  list-style: none;
+}
+
+.footer__links li {
+  display: inline;
+  padding-right: 16px;
 }
 
 .footer__links a {
